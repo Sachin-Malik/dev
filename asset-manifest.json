@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/dev/static/css/main.ebafa219.css",
+    "main.js": "/dev/static/js/main.906d9034.js",
+    "static/media/bootstrap.png": "/dev/static/media/bootstrap.0b914c5ec6c1ef5be9a4.png",
+    "static/media/youtube_snip.JPG": "/dev/static/media/youtube_snip.a7c91e5cf7ba92f56e2e.JPG",
+    "static/media/redux.png": "/dev/static/media/redux.1b4bb5fceb01b19da59d.png",
+    "static/media/classifier_snip_3.jpg": "/dev/static/media/classifier_snip_3.5a7f40f5744a63e3e26f.jpg",
+    "static/media/getplaced_snip.JPG": "/dev/static/media/getplaced_snip.3e0ca021d930ca472d7f.JPG",
+    "static/media/classifier_snip_2.jpg": "/dev/static/media/classifier_snip_2.9006fff937eb2eacf498.jpg",
+    "static/media/graphql.png": "/dev/static/media/graphql.f6feb44a96005ff7ae8f.png",
+    "static/media/classifier_snip.jpg": "/dev/static/media/classifier_snip.28b3b5bec56c80c5ece7.jpg",
+    "static/media/instagram.png": "/dev/static/media/instagram.5623268ebe07c305eb19.png",
+    "static/media/react.png": "/dev/static/media/react.5cc8a060693d962b0573.png",
+    "static/media/twitter.png": "/dev/static/media/twitter.679f683cf5f3e7b38d63.png",
+    "static/media/play.png": "/dev/static/media/play.02521623e393c510ea17.png",
+    "static/media/github.png": "/dev/static/media/github.fbaf3769612f1778b4af.png",
+    "static/media/firebase.png": "/dev/static/media/firebase.192de0a8d737f76b9dd8.png",
+    "static/media/query.jpg": "/dev/static/media/query.ede5c027313a97aeb4d1.jpg",
+    "static/media/code.png": "/dev/static/media/code.250743a7093b75de5dce.png",
+    "static/media/figma.png": "/dev/static/media/figma.72fbc535ebe253a5dbc4.png",
+    "static/media/linkedin.png": "/dev/static/media/linkedin.836f42024655e0cf3111.png",
+    "static/media/html.png": "/dev/static/media/html.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/next.png": "/dev/static/media/next.9f8054a6dc0837262000.png",
+    "static/media/css.png": "/dev/static/media/css.5721a3928fe43de6baf8.png",
+    "index.html": "/dev/index.html",
+    "main.ebafa219.css.map": "/dev/static/css/main.ebafa219.css.map",
+    "main.906d9034.js.map": "/dev/static/js/main.906d9034.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebafa219.css",
+    "static/js/main.906d9034.js"
+  ]
+}
