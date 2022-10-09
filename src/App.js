@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import { NavBar } from './components/NavBar';
+import { Home } from './components/Home'
+import SocialCards from './components/SocialCards';
+import { Seperate } from './components/Seperate';
+import {Projects} from './components/Projects';
+import TimeLine from './components/TimeLine';
+import Footer from './components/Footer';
+
+const projectSectionInfo = {
+  sectionInfoHeader:'My Work',
+  sectionInfoContent:`Projects I'm most proud of`
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App container main-div">
+      <NavBar />
+      <Seperate />
+      <Home />
+      <SocialCards />
+      <Seperate />
+      <Projects />
+      <TimeLine />
+      <Footer />
     </div>
   );
 }
