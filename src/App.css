@@ -344,3 +344,11 @@ a:hover{
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+
+.joke-container{
+  color:#ffffff
+}
+
+.star-icon:hover{
+  cursor: pointer;
+}

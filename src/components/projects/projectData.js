@@ -3,8 +3,6 @@ import play from '../../assets/play.png'
 import youtube_snip from '../../assets/youtube_snip.JPG'
 import getplaced_snip from '../../assets/getplaced_snip.JPG'
 import classifier_snip from '../../assets/classifier_snip.jpg'
-import classifier_snip_2 from '../../assets/classifier_snip_2.jpg';
-import classifier_snip_3 from '../../assets/classifier_snip_3.jpg'
 
 
 export const projectsData = [
@@ -45,12 +43,13 @@ export const projectsData = [
     {
         projectImage:classifier_snip,
         projectTitle:"Music Genre Classifier",
-        projectContent:"A web application written in vanilla stack which provides resources for student to help them to ace their placements.",
-        projectTechStack:"HTML, CSS, Jquery & Bootstrap",
+        projectImageUrl:'https://github.com/Sachin-Malik/Music-Genre-Classifier/tree/master/Music%20Genre%20Classification',
+        projectContent:"A machine learning model (ANN) that classifies music audio files into 1 of 10 catergory using their frequency level features  ",
+        projectTechStack:"Python, ANN, Librosa & GTZan",
         projectLinks: [
             {
                 projectLinkIcon:github,
-                projectLinkUrl:'https://github.com/Sachin-Malik/Get-Placed'
+                projectLinkUrl:'https://github.com/Sachin-Malik/Music-Genre-Classifier/tree/master/Music%20Genre%20Classification'
             }
         ]
     }

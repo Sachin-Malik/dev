@@ -5,6 +5,7 @@ import SocialCards from './components/SocialCards';
 import { Seperate } from './components/Seperate';
 import {Projects} from './components/Projects';
 import TimeLine from './components/TimeLine';
+import Joke from './components/Joke/Joke';
 import Footer from './components/Footer';
 
 const projectSectionInfo = {
@@ -23,6 +24,7 @@ function App() {
       <Projects />
       <TimeLine />
       <Footer />
+      <Joke />
     </div>
   );
 }
