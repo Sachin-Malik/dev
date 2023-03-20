@@ -1,3 +1,4 @@
+import link from '../assets/link.png'
 export function Home(){
 
     return (
@@ -14,11 +15,19 @@ export function Home(){
                   <p className="sub-heading">
                   I'm Sachin Malik, a Delhi-based Software Engineer/Developer with over one year of experience. I specialize in creating modern UIs for web and mobile applications using React.JS, Next.JS and Redux</p>
                 </div>
-                <div className="d-none d-md-block row mt-2">
-                  <p className="sub-heading">I’m currently working at NCR Corporation, learning & growing every single day. Wanna connect? Feel free to block my calendar.</p>
+                <div className="d-md-block row mt-2">
+                  <p className="sub-heading">
+                    <span className="d-none d-md-inline-block">I’m currently working at NCR Corporation, learning & growing every single day. </span> Wanna connect? Feel free to block my 
+                    <span ><a className='calendar-text' href='https://topmate.io/sachin_malik' target="_blank" rel="noreferrer"><span>calendar</span></a></span>
+                    <img className='calendar-icon' src={link} alt='Loading'/>
+                  </p> 
                   </div>
             </div>
            </div>
         </div>
     )
 }
+
+
+
+// https://drive.google.com/file/d/1LYHXlTt6BAedFsuYLkvy3Pdotaa014wB/view

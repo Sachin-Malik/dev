@@ -1,6 +1,6 @@
 #root{
   background-color: #000000;
-  padding-bottom: 300px;
+  padding-bottom: 200px;
 }
 
 .main-div{
@@ -93,6 +93,31 @@ a:hover{
   height: 25px;
 }
 
+.calendar-text{
+  margin-left: 10px;
+  display: inline-block;
+  color:#B1B1B1;
+  text-decoration: underline purple 1px;
+  text-underline-offset: 6px;
+}
+
+.calendar-text:hover{
+  color:#B1B1B1;
+  background-color: white;
+  background-image: none;
+}
+
+
+
+
+.calendar-icon{
+  width: 20px;
+  height: 20px;
+  margin-bottom:8px;
+  margin-left: 10px;
+  text-decoration: underline;
+}
+
 .project-image{
   min-height: 200px;
   -webkit-transition: all 1.5s;
@@ -181,7 +206,7 @@ a:hover{
 
 .timeline-item{
  /* font-family: 'Ubuntu'; */
- font-weight: 300;
+ font-weight: 400;
 }
 
 /* Classes for TimeLine */

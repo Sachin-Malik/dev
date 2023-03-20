@@ -32,7 +32,7 @@ function Rating({jokeNumber}){
                      else {
                          starStatus=star_unfilled
                      }
-                     return <img className="my-icon star-icon"  onClick={()=>handRatingUpdate(item)} src={starStatus} alt="star_image" />
+                     return <img className="my-icon star-icon mr-0 mr-md-1"  onClick={()=>handRatingUpdate(item)} src={starStatus} alt="star_image" />
                  })
                 }
             </div>

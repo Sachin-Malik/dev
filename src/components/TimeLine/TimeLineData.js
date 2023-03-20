@@ -14,7 +14,7 @@ import next from '../../assets/next.png'
 export const TimeLineData = [
     {
         companyName:'NCR Corporation',
-        companyDuration:'July - Current, 2022',
+        companyDuration:'July, 2022 - Current',
         companyWorkContent:'Working as Frontend-Engineer and building something beautiful with React, Redux and Next.JS',
         companyWorkStack: [react,next,redux]
     },
