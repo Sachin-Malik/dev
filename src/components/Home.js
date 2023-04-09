@@ -6,14 +6,14 @@ export function Home(){
            <div className="row mt-4 justify-content-center">
             <div className="col-10 ">
                 <div className="row">
-                  <p className="sub-heading">Sachin Malik - Software Engineer / Frontend Developer </p>
+                  <p className="sub-heading">Sachin Malik - Software Engineer / Full-Stack Developer </p>
                 </div>
                 <div className="row mt-3 mt-md-0">
-                    <h1 className="home-main-heading">A <span className="gradient-text ">passionate minimilist</span> creating frontend for web & mobile applicaton.</h1>
+                    <h2 className="home-main-heading">A <span className="gradient-text ">passionate minimilist</span> creating full-stack Apps for web & mobile.</h2>
                 </div>
                 <div className="row mt-4 mt-md-5">
                   <p className="sub-heading">
-                  I'm Sachin Malik, a Delhi-based Software Engineer/Developer with over one year of experience. I specialize in creating modern UIs for web and mobile applications using React.JS, Next.JS and Redux</p>
+                  I'm Sachin Malik, a Delhi-based Software Engineer / Developer with over one year of experience. I specialize in creating modern UIs for web and mobile applications using React.JS, Next.JS and Redux</p>
                 </div>
                 <div className="d-md-block row mt-2">
                   <p className="sub-heading">

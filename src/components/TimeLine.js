@@ -1,4 +1,3 @@
-import {useState} from 'react';
 import SectionInfo from "./sectionInfo/SectionInfo";
 import TimeLineItem from "./TimeLine/TimeLineItem";
 import { TimeLineData } from "./TimeLine/TimeLineData";
@@ -16,7 +15,7 @@ function TimeLine(){
       <div id="experience">
         <SectionInfo data={workSectionInfo}/>
         <div className="row justify-content-center space-100">
-            <div className="col-12 col-md-10">
+            <div className="col-12 col-md-10 px-0">
             <section>
               <div class="py-5">
                 <div class="main-timeline">

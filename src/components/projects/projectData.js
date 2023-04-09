@@ -1,25 +1,30 @@
 import github from '../../assets/github.png'
-import play from '../../assets/play.png'
-import youtube_snip from '../../assets/youtube_snip.JPG'
+import play from '../../assets/play.png';
+import star from '../../assets/star.png';
+import youtube_snip from '../../assets/youtube_snip.png'
 import getplaced_snip from '../../assets/getplaced_snip.JPG'
 import classifier_snip from '../../assets/classifier_snip.jpg'
+
 
 
 export const projectsData = [
     {
         projectImage:youtube_snip,
-        projectImageUrl:'https://sachin-malik.github.io/youtube-clone',
+        projectImageUrl:'https://sachin-malik.github.io/Youtube_Clone',
+        star:star,
         projectTitle:"Youtube-Clone",
-        projectContent:"Clone YouTube's basic search and play videos functionalaties using offical YouTube API that can handle 1000 concurrent users",
+        projectContent:"Pixel perfect clone of Youtube's UI and Search and Play Functionality that can handle 1000 concurrent users.",
         projectTechStack:"React.JS, Redux, YouTubeAPI & Github Pages",
         projectLinks: [
             {
                 projectLinkIcon:play,
-                projectLinkUrl:'https://sachin-malik.github.io/youtube-clone'
+                projectLinkUrl:'https://sachin-malik.github.io/Youtube_Clone',
+                iconTitle:'Check out Live Demo',
             },
             {
                 projectLinkIcon:github,
-                projectLinkUrl:'https://sachin-malik.github.io/Get-Placed/'
+                projectLinkUrl:'https://sachin-malik.github.io/Get-Placed/',
+                iconTitle:'Check out GitHub Repo',
             }
         ]
     },
@@ -32,11 +37,15 @@ export const projectsData = [
         projectLinks: [
             {
                 projectLinkIcon:play,
-                projectLinkUrl:'https://sachin-malik.github.io/Get-Placed/'
+                projectLinkUrl:'https://sachin-malik.github.io/Get-Placed/',
+                iconTitle:'Check out Live Demo',
+
             },
             {
                 projectLinkIcon:github,
-                projectLinkUrl:'https://github.com/Sachin-Malik/Get-Placed'
+                projectLinkUrl:'https://github.com/Sachin-Malik/Get-Placed',
+                iconTitle:'Check out GitHub Repo',
+
             }
         ]
     },
@@ -49,7 +58,9 @@ export const projectsData = [
         projectLinks: [
             {
                 projectLinkIcon:github,
-                projectLinkUrl:'https://github.com/Sachin-Malik/Music-Genre-Classifier/tree/master/Music%20Genre%20Classification'
+                projectLinkUrl:'https://github.com/Sachin-Malik/Music-Genre-Classifier/tree/master/Music%20Genre%20Classification',
+                iconTitle:'Check out GitHub Repo',
+
             }
         ]
     }

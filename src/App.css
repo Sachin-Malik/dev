@@ -50,7 +50,7 @@ a:hover{
 
 .nav-title{
   color:white;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.2em;
   font-weight: 800;
   font-size: 1.4em;
 }
@@ -61,19 +61,26 @@ a:hover{
   background-color: #292929;
 }
 
+.home-main-heading{
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 0em;
+  word-spacing: 0rem;
+}
+
 .sub-heading{
   letter-spacing: .1em;
   color: #B1B1B1;
-  font-weight: 600;
-  word-spacing: .3em;
-  line-height: 200%;
+  font-weight: 500;
+  word-spacing: .2em;
+  line-height: 200%;  
+  font-family: 'Roboto Mono', monospace;
 }
 
 @media (min-width:300px) {
   .home-main-heading{
-  color:white;
-  font-size:2rem;
-  letter-spacing: .05rem;
+    color:white;
+    font-size:2rem;
+    letter-spacing: .05rem;
   }
 }
 
@@ -119,7 +126,8 @@ a:hover{
 }
 
 .project-image{
-  min-height: 200px;
+  min-height: 280px;
+  object-fit: fit;
   -webkit-transition: all 1.5s;
   transition: all .5s;
 }
@@ -294,6 +302,11 @@ a:hover{
   /* Place the timelime to the left */
   .main-timeline::after {
     left: 31px;
+  }
+
+  .project-image{
+    min-height: 200px;
+    object-fit: fit;
   }
 
   /* Full-width containers */

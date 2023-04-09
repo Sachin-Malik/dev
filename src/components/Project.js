@@ -1,7 +1,12 @@
 function Project({project}){
   return (
     <div className='row justify-content-center mt-5 project-card '>
-    <div className='col-12 col-md-10'>
+    <div className='col-12 col-md-10' style={{position:'relative'}}>
+               { project.star && (
+                <span style={{position:'absolute',right:'50px', bottom:'30px'}}>
+                  <img src={project.star} style={{ height:'20px', width:'20px'}} title='Special Mention' alt='Fav Icon'/>
+                </span>)
+               }
             <div className="row g-0 justify-content-around gradient-border m-3">
                 <div className="col-md-6 align-self-center">
                     <a href={project.projectImageUrl} target="_blank" rel="noreferrer">
@@ -15,7 +20,7 @@ function Project({project}){
                  <p> 
                    {
                     project.projectLinks.map(item=>{
-                        return  <a href={item.projectLinkUrl} target="_blank" title='Checkout Code' rel="noreferrer"><img className='my-icon' src={item.projectLinkIcon} alt='Loading'/></a>
+                        return  <a href={item.projectLinkUrl} target="_blank" title={item.iconTitle} rel="noreferrer"><img className='my-icon' src={item.projectLinkIcon} alt='Loading'/></a>
                     })
                    }
                  </p>

@@ -8,11 +8,6 @@ import TimeLine from './components/TimeLine';
 import Joke from './components/Joke/Joke';
 import Footer from './components/Footer';
 
-const projectSectionInfo = {
-  sectionInfoHeader:'My Work',
-  sectionInfoContent:`Projects I'm most proud of`
-}
-
 function App() {
   return (
     <div className="App container main-div">
