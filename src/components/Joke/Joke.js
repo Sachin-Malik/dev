@@ -1,14 +1,14 @@
-import {useState} from "react";
+import { useState } from "react";
 import JokeButton from "./JokeButton";
 import JokeComponent from "./JokeComponent";
 
-function Joke(){
-    const [showJoke,setShowJoke] = useState(false);
+function Joke() {
+    const [showJoke, setShowJoke] = useState(false);
     return (
-        <div style={{marginTop:'200px'}}>
-            {showJoke?
-            <JokeComponent />:
-            <JokeButton setShowJoke={setShowJoke}/>
+        <div style={{ marginTop: '150px' }}>
+            {showJoke ?
+                <JokeComponent /> :
+                <JokeButton setShowJoke={setShowJoke} />
             }
         </div>
     )

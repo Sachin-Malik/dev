@@ -1,6 +1,3 @@
-import linkedin from '../../assets/linkedin.png'
-import github from '../../assets/github.png'
-
 
 function TimeLineItem({data,floatDirection}){
     return (
@@ -8,7 +5,7 @@ function TimeLineItem({data,floatDirection}){
         <div className="card">
           <div className="card-body p-4">
           <h3 className="card-title project-title gradient-text">{data.companyName}</h3>
-            <p className='uppercase'>{data.companyDuration}</p>
+            <p>{data.companyDuration}</p>
             <p className="">{data.companyWorkContent}</p>
             {
               data.companyWorkStack.map((item)=>{
