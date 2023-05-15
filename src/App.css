@@ -99,6 +99,11 @@ a:hover {
   margin-right: 20px;
   width: 25px;
   height: 25px;
+  transition: all .2s linear;
+}
+
+.my-icon:hover {
+  transform: translate(0%, -30%);
 }
 
 .calendar-text {
@@ -129,14 +134,14 @@ a:hover {
 .project-image {
   min-height: 280px;
   object-fit: fit;
-  -webkit-transition: all 1.5s;
-  transition: all .5s;
+  -webkit-transition: all .4s;
+  transition: all .4s;
   border-radius: 10px;
 }
 
 .project-image:hover {
-  transform: scale(1.1);
-  transition: transform .8s ease;
+  transform: scale(1.02);
+  transition: transform .1s linear;
 }
 
 .project-background {
