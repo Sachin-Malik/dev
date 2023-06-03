@@ -1,6 +1,7 @@
+import { useEffect } from 'react';
 import Project from './Project'
-import SectionInfo from './sectionInfo/SectionInfo'
-import { projectsData } from './projects/projectData'
+import SectionInfo from '../sectionInfo/SectionInfo'
+import { projectsData } from './projectData'
 const projectSectionInfo = {
     sectionInfoHeader: 'My Work',
     sectionInfoContent: `Projects I'm most proud of`
@@ -9,6 +10,21 @@ const projectSectionInfo = {
 
 
 export function Projects() {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+            }
+        })
+    })
+
+    useEffect(() => {
+        const hiddenElements = document.querySelectorAll('.hide');
+        hiddenElements.forEach((element) => observer.observe(element));
+
+        console.log(hiddenElements);
+    }, [])
+
     return (
         <div id="work">
             <div className='space-100'>

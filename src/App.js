@@ -1,12 +1,12 @@
 import './App.css';
-import { NavBar } from './components/NavBar';
-import { Home } from './components/Home'
-import SocialCards from './components/SocialCards';
+import { NavBar } from './components/navabar/NavBar';
+import { Home } from './components/hero/Home'
+import SocialCards from './components/hero/SocialCards';
 import { Seperate } from './components/Seperate';
-import {Projects} from './components/Projects';
-import TimeLine from './components/TimeLine';
+import { Projects } from './components/projects/Projects';
+import TimeLine from './components/TimeLine/TimeLine';
 import Joke from './components/Joke/Joke';
-import Footer from './components/Footer';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (

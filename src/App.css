@@ -77,6 +77,19 @@ a:hover {
   font-family: 'Roboto Mono', monospace;
 }
 
+.hide {
+  opacity: 0;
+  transition: all 1s;
+  filter: blur(3px);
+  transform: translateY(25%);
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
 @media (min-width:300px) {
   .home-main-heading {
     color: white;
@@ -132,7 +145,7 @@ a:hover {
 }
 
 .project-image {
-  min-height: 280px;
+  min-height: 250px;
   object-fit: fit;
   -webkit-transition: all .4s;
   transition: all .4s;

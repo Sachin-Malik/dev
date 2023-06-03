@@ -1,7 +1,7 @@
 
 function TimeLineItem({ data, floatDirection }) {
   return (
-    <div className={`timeline timeline-item  ${floatDirection}`}>
+    <div className={`timeline timeline-item  ${floatDirection} hide`}>
       <div className="card">
         <div className="card-body p-4">
           <h3 className="card-title project-title gradient-text">{data.companyName}</h3>

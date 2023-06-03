@@ -1,6 +1,6 @@
 function Project({ project }) {
   return (
-    <div className='row justify-content-center my-3 project-card '>
+    <div className='row justify-content-center my-3 project-card hide '>
       <div className='col-12 col-md-10' style={{ position: 'relative' }}>
         <div className="row g-0 justify-content-around m-3">
           <div className="col-md-6 align-self-center">
