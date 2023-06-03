@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dev/static/css/main.2dd5d73c.css",
-    "main.js": "/dev/static/js/main.f073d548.js",
+    "main.css": "/dev/static/css/main.259ce02f.css",
+    "main.js": "/dev/static/js/main.61df2b45.js",
     "static/media/youtube_snip.png": "/dev/static/media/youtube_snip.5eb0bfb3bea6099ad9ea.png",
     "static/media/bootstrap.png": "/dev/static/media/bootstrap.0b914c5ec6c1ef5be9a4.png",
     "static/media/redux.png": "/dev/static/media/redux.1b4bb5fceb01b19da59d.png",
@@ -23,11 +23,11 @@
     "static/media/next.png": "/dev/static/media/next.9f8054a6dc0837262000.png",
     "static/media/css.png": "/dev/static/media/css.5721a3928fe43de6baf8.png",
     "index.html": "/dev/index.html",
-    "main.2dd5d73c.css.map": "/dev/static/css/main.2dd5d73c.css.map",
-    "main.f073d548.js.map": "/dev/static/js/main.f073d548.js.map"
+    "main.259ce02f.css.map": "/dev/static/css/main.259ce02f.css.map",
+    "main.61df2b45.js.map": "/dev/static/js/main.61df2b45.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dd5d73c.css",
-    "static/js/main.f073d548.js"
+    "static/css/main.259ce02f.css",
+    "static/js/main.61df2b45.js"
   ]
 }
