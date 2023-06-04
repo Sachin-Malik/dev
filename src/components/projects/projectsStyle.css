@@ -1,0 +1,50 @@
+.project-card {
+    background-color: #000000;
+    word-spacing: 0.2em;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.project-image {
+    min-height: 250px;
+    object-fit: fit;
+    -webkit-transition: all 1s;
+    transition: all 0.1s;
+    border-radius: 10px;
+}
+
+.project-image:hover {
+    transform: scale(1.05);
+    transition: transform 0.1s linear;
+}
+
+@media screen and (max-width: 600px) {
+    .project-image {
+        min-height: 200px;
+        object-fit: fit;
+    }
+}
+
+.project-title {
+    letter-spacing: 0.06em;
+    word-spacing: 0.5em;
+    font-weight: 800;
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #E39600 6.72%, #EA4C89 43.47%, #8F48EB 75.22%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-family: 'Monoton';
+    text-transform: uppercase;
+
+}
+
+.project-card__separator {
+    border: 1px solid;
+    display: flex;
+    border-image: linear-gradient(45deg, #E39600 6.72%, #EA4C89 43.47%, #8F48EB 75.22%) 1;
+    width: 20px;
+    align-items: center;
+}

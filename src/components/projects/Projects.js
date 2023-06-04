@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import Project from './Project'
 import SectionInfo from '../sectionInfo/SectionInfo'
 import { projectsData } from './projectData'
+import './projectsStyle.css'
 const projectSectionInfo = {
     sectionInfoHeader: 'My Work',
     sectionInfoContent: `Projects I'm most proud of`

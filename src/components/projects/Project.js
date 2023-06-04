@@ -3,7 +3,7 @@ function Project({ project }) {
     <div className='row justify-content-center my-3 project-card hide '>
       <div className='col-12 col-md-10' style={{ position: 'relative' }}>
         <div className="row g-0 justify-content-around m-3">
-          <div className="col-md-6 align-self-center">
+          <div className="col-md-5 align-self-center">
             <a href={project.projectImageUrl} target="_blank" rel="noreferrer">
               <img src={project.projectImage} className="img-fluid  project-image" alt="..." />
             </a>

@@ -1,4 +1,5 @@
 import link from '../../assets/link.png'
+import './heroStyle.css'
 export function Home() {
 
   // const angle = (cx, cy, ex, ey) => {
@@ -38,12 +39,12 @@ export function Home() {
             <p className="sub-heading">Sachin Malik - Software Engineer / Full-Stack Developer </p>
           </div>
           <div className="row mt-3 mt-md-0">
-            <h2 className="home-main-heading">A <span className="gradient-text ">passionate minimilist</span> creating full-stack Apps for web & mobile.</h2>
+            <h2 className="home-main-heading">A <span className="gradient-text">passionate minimalist </span> creating full-stack apps for <br />web & mobile</h2>
           </div>
           <div className="row mt-4">
             <div className="sub-heading" style={{ marginBottom: '20px' }}>
               <span className="d-none d-md-inline" >I'm Sachin Malik, a Delhi-based Software Engineer / Developer with over one year of experience.</span>
-              <span className='d-inline'>I specialize in creating modern UIs for web and mobile applications using React.JS, Next.JS and Redux.</span>
+              <span className='d-inline'>I specialize in creating modern UIs for web and mobile applications using React.JS, Next.JS and Redux</span>
             </div>
           </div>
           <div className="d-md-block row mt-2">

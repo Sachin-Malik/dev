@@ -1,13 +1,13 @@
 import SectionInfo from "../sectionInfo/SectionInfo";
 import TimeLineItem from "./TimeLineItem";
 import { TimeLineData } from "./TimeLineData";
+import './timelineStyle.css'
 
 
 const workSectionInfo = {
   sectionInfoHeader: 'Experience',
   sectionInfoContent: `Companies, I've had the pleasure to work with`
 }
-
 const directionMap = ['right', 'left'];
 function TimeLine() {
 
