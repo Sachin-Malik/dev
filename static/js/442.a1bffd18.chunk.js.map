@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/442.a1bffd18.chunk.js","mappings":"0KAAe,SAASA,IACpB,OACI,gBAAKC,UAAU,gBAGtB,C","sources":["components/Seperate.js"],"sourcesContent":["export default function Seperate() {\r\n    return (\r\n        <div className=\"nav-separate\">\r\n        </div>\r\n    )\r\n}"],"names":["Seperate","className"],"sourceRoot":""}
