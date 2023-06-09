@@ -1,7 +1,7 @@
 import github from '../../assets/github.png'
 import live from '../../assets/live.png';
 import star from '../../assets/star.png';
-import youtube_snip from '../../assets/youtube_snip.png'
+import youtube_snip from '../../assets/youtube_snip_.png'
 import getplaced_snip from '../../assets/getplaced_snip.JPG'
 import classifier_snip from '../../assets/classifier_snip.jpg'
 

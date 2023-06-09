@@ -24,7 +24,7 @@ function Rating({ jokeNumber }) {
             </div>
             <div>
                 {
-                    rating.map((item) => {
+                    rating.map((item, index) => {
                         let starStatus = '';
                         if (userRating && parseInt(userRating) >= parseInt(item)) {
                             starStatus = star_filled;
@@ -32,7 +32,7 @@ function Rating({ jokeNumber }) {
                         else {
                             starStatus = star_unfilled
                         }
-                        return <img className="my-icon star-icon mr-0 mr-md-1" onClick={() => handRatingUpdate(item)} src={starStatus} alt="star_image" />
+                        return <img key={index} className="my-icon star-icon mr-0 mr-md-1" onClick={() => handRatingUpdate(item)} src={starStatus} alt="star_image" />
                     })
                 }
             </div>

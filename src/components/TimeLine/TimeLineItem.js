@@ -8,8 +8,8 @@ function TimeLineItem({ data, floatDirection }) {
           <p>{data.companyDuration}</p>
           <p className="">{data.companyWorkContent}</p>
           {
-            data.companyWorkStack.map((item) => {
-              return <a href='#blank' rel="noreferrer"><img className='my-icon' src={item} alt='Loading' /></a>
+            data.companyWorkStack.map((item, index) => {
+              return <a key={index} href='#blank' rel="noreferrer"><img className='my-icon' src={item} alt='Loading' /></a>
             })
           }
         </div>

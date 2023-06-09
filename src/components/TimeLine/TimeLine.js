@@ -17,11 +17,11 @@ function TimeLine() {
       <div className="row justify-content-center space-100">
         <div className="col-12 col-md-10 px-0">
           <section>
-            <div class="py-5">
-              <div class="main-timeline">
+            <div className="py-5">
+              <div className="main-timeline">
                 {
                   TimeLineData.map((item, index) => {
-                    return <TimeLineItem data={item} floatDirection={directionMap[index % 2]} />
+                    return <TimeLineItem key={index} data={item} floatDirection={directionMap[index % 2]} />
                   })
                 }
               </div>

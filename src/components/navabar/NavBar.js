@@ -18,7 +18,7 @@ const navItems = [
   },
 ];
 const navTitle = "SACHIN.DEV"
-export function NavBar() {
+export default function NavBar() {
   return (
     <div className="row justify-content-between pt-4 pb-3">
       <div className="col-12 col-md-4 nav-title text-center text-md-start ">
@@ -26,8 +26,8 @@ export function NavBar() {
       </div>
       <div className="d-none d-md-block col-md-8 text-end">
         {
-          navItems.map((item) => {
-            return <a href={`${item.url}`} className="nav-item">{item.name}</a>
+          navItems.map((item, index) => {
+            return <a key={index} href={`${item.url}`} className="nav-item">{item.name}</a>
           })
         }
       </div>

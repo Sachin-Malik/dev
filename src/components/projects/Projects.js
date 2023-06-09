@@ -8,9 +8,7 @@ const projectSectionInfo = {
     sectionInfoContent: `Projects I'm most proud of`
 }
 
-
-
-export function Projects() {
+export default function Projects() {
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
             if (entry.isIntersecting) {
@@ -22,8 +20,6 @@ export function Projects() {
     useEffect(() => {
         const hiddenElements = document.querySelectorAll('.hide');
         hiddenElements.forEach((element) => observer.observe(element));
-
-        console.log(hiddenElements);
     }, [])
 
     return (

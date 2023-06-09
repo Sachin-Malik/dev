@@ -14,8 +14,8 @@ function Project({ project }) {
             <p>{project.projectTechStack}</p>
             <p>
               {
-                project.projectLinks.map(item => {
-                  return <a href={item.projectLinkUrl} target="_blank" title={item.iconTitle} rel="noreferrer"><img className='my-icon' src={item.projectLinkIcon} alt='Loading' /></a>
+                project.projectLinks.map((item, index) => {
+                  return <a key={index} href={item.projectLinkUrl} target="_blank" title={item.iconTitle} rel="noreferrer"><img className='my-icon' src={item.projectLinkIcon} alt='Loading' /></a>
                 })
               }
             </p>

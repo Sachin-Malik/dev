@@ -1,6 +1,6 @@
 import link from '../../assets/link.png'
 import './heroStyle.css'
-export function Home() {
+export default function Home() {
 
   // const angle = (cx, cy, ex, ey) => {
   //   let dx = ex - cx;

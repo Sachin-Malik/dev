@@ -1,12 +1,14 @@
 import './App.css';
-import { NavBar } from './components/navabar/NavBar';
-import { Home } from './components/hero/Home'
-import SocialCards from './components/hero/SocialCards';
-import { Seperate } from './components/Seperate';
-import { Projects } from './components/projects/Projects';
-import TimeLine from './components/TimeLine/TimeLine';
-import Joke from './components/Joke/Joke';
-import Footer from './components/footer/Footer';
+import React from 'react';
+
+const Home = React.lazy(() => import('./components/hero/Home'));
+const SocialCards = React.lazy(() => import('./components/hero/SocialCards'));
+const Seperate = React.lazy(() => import('./components/Seperate'));
+const Projects = React.lazy(() => import('./components/projects/Projects'));
+const TimeLine = React.lazy(() => import('./components/TimeLine/TimeLine'));
+const Joke = React.lazy(() => import('./components/Joke/Joke'));
+const Footer = React.lazy(() => import('./components/footer/Footer'));
+const NavBar = React.lazy(() => import('./components/navabar/NavBar'));
 
 function App() {
   return (
