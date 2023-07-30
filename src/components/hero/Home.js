@@ -34,12 +34,12 @@ export default function Home() {
   return (
     <div className=" p-0 pt-3 pb-3  main-div container-fluid" id="home">
       <div className="row mt-4 justify-content-center">
-        <div className="col-10 p-0">
+        <div className="col-10 col-md-11 p-0">
           <div className="row">
             <p className="sub-heading">Sachin Malik - Software Engineer / Full-Stack Developer </p>
           </div>
           <div className="row mt-3 mt-md-0">
-            <h2 className="home-main-heading">A <span className="gradient-text">passionate minimalist </span> creating full-stack apps for <br />web & mobile</h2>
+            <h2 className="home-main-heading">A <h1 className="gradient-text-hero">passionate minimalist </h1> creating full-stack apps for <br />web & mobile</h2>
           </div>
           <div className="row mt-4">
             <div className="sub-heading" style={{ marginBottom: '20px' }}>
