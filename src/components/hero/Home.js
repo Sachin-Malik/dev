@@ -32,7 +32,7 @@ export default function Home() {
 
 
   return (
-    <div className=" p-0 pt-3 pb-3  main-div container-fluid" id="home">
+    <div className=" p-0 pt-md-3 pb-3  main-div container-fluid" id="home">
       <div className="row mt-4 justify-content-center">
         <div className="col-10 col-md-11 p-0">
           <div className="row">

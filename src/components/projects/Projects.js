@@ -9,6 +9,17 @@ const projectSectionInfo = {
 }
 
 export default function Projects() {
+
+    const shuffleData = (input) => {
+        const inputLen = input.length;
+        let a = Math.floor(Math.random() * 100) % inputLen;
+        let b = Math.floor(Math.random() * 100) % inputLen;
+        let temp = input[a];
+        input[a] = input[b];
+        input[b] = temp;
+        return input;
+    }
+
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
             if (entry.isIntersecting) {
@@ -27,7 +38,7 @@ export default function Projects() {
             <div className='space-100'>
                 <SectionInfo data={projectSectionInfo} />
                 {
-                    projectsData.map((project, index) => {
+                    shuffleData(projectsData).map((project, index) => {
                         return <Project key={index} project={project} lastCard={index === projectsData.length - 1} />
                     })
                 }

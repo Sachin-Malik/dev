@@ -28,6 +28,12 @@
     }
 }
 
+@media (max-width:300px) {
+    .sub-heading {
+        line-height: 160%;
+    }
+}
+
 @media (min-width:540px) {
     .home-main-heading {
         color: white;
